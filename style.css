@@ -1,0 +1,155 @@
+body {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    height: 1050px;
+    margin: 0px 150px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main {
+    margin: 0px 50px;
+     width: 970px;
+    height: 850;
+}
+
+.logo {
+    background: solid 2px;
+    height: 50px;
+    margin-bottom: 70px;
+}
+
+header {
+    background-color: #4f4f4f;
+    vertical-align: middle;
+    margin-bottom: 5px;
+    font-family: Open Sans Regular;
+    font-size: 14, 67px;
+}
+
+nav {
+    float: left;
+    color: grey;
+    margin-top: 23px;
+}
+
+.top_nav a {
+    display: block;
+    color: #ffffff;
+    font-family: Open Sans;
+    font-size: 14.67px;
+    margin-top: 10px;
+}
+
+.top_nav li {
+    display: inline-block;
+    list-style: none;
+    height: 40px;
+    padding: 10px 20px;
+}
+
+.top_nav li:hover {
+    border-left: 1px solid #838383;
+    border-right: 1px solid #838383;
+    background-color: #484848;
+}
+.top_nav li:nth-child(-n+3) {
+    margin-left: 10px;
+}
+.clearfix {
+    margin-left: 335px;
+    margin-top: 40px;
+    font-family: Open Sans Regular;
+    color: #2c2c2c;
+}
+.foods {
+    display: table;
+    margin: 0px;
+    width: 240px;
+    height: 240px;
+    padding-left: 0px;
+}
+
+.foods li {
+    list-style: none;
+}
+
+.foods a {
+    display: block;
+    margin-bottom: -1px;
+    padding: 8px 23px;
+    text-decoration: none;
+    color: #807e7e;
+    border: 1px solid #c8c8c8;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+.foods li a:hover {
+    background-color: #f9f9f9;
+    color: #2c2c2c;
+    padding: 8px 34px;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+    width: 100%;
+    height: 0px;
+    background: #e74c3c;
+}
+
+.pic {
+    height: 400px;
+    padding: 40px 70px;
+    border: 1px solid #c8c8c8;
+}
+
+.lorem {
+    padding: 10px 5px;
+}
+span {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+footer {
+    position: relative;
+    background-color: #e1e1e1;
+    vertical-align: middle;
+    font-family: Open Sans Regular;
+    color: #2c2c2c;
+}
+
+.bottom_nav {
+    display: table;
+}
+
+.bottom_nav a {
+    display: block;
+    height: 40px;
+    margin-top: 10px;
+    color: #2c2c2c;
+   margin-right: 50px;
+}
+.bottom_nav li:last-child {
+    margin-left: 0px;
+}
+
+.bottom_nav li {
+    display: inline-block;
+    list-style: none;
+    height: 40px;
+    padding: 0px 10px;
+    /*    box-sizing: border-box;*/
+    border: none;
+}
+
+
+
+.bottom_nav li:hover {
+    text-decoration: underline;
+}
+
